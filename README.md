@@ -46,7 +46,10 @@ GuessImagesSVM_faces.py.
 
 References:
 
-http://vis-ww.cs.umass.edu/lfw/#download.
+http://vis-ww.cs.umass.edu/lfw/#download
+
 https://github.com/shantnu/facedetect/
+
 https://omes-va.com/deteccion-de-rostros-con-haar-cascades-python-opencv/
+
 https://realpython.com/face-recognition-with-python/
