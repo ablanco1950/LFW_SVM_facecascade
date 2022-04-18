@@ -54,4 +54,6 @@ https://omes-va.com/deteccion-de-rostros-con-haar-cascades-python-opencv/
 
 https://realpython.com/face-recognition-with-python/
 
-The main problem is that scikit-learn-svm-svc-extremely-slow https://stackoverflow.com/questions/40077432/why-is-scikit-learn-svm-svc-extremely-slow. but with the number of records that are handled in this job it is acceptable, apart from the fact that the compilation result can be saved
+The main drawback is that scikit-learn-svm-svc is extremely-slow https://stackoverflow.com/questions/40077432/why-is-scikit-learn-svm-svc-extremely-slow. But with the number of records that are handled in this job it is acceptable, apart from the fact that the compilation result can be saved:
+
+(pickle.dump(model, open("./model.pickle", 'wb')) #save model as a pickled file
