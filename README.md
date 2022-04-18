@@ -20,9 +20,9 @@ from Sklearn.multiclass Import Onevsrestclassifier
 
 It is advisable to have  ANACONDA installed and work with Spyder from Anaconda, which guarantees an integrated and friendly environment, installing any package that is missing from the CMD.EXE Prompt of Anaconda with type commands:
 
-Python -M Pip Install OpenCV-Python (CASE OF CV2)
+python -m pip install opencv-python (case of cv2)
 
-You must have the image recognition module at the Haarcascade_frontalface_default.xml, in this case it has been downloaded from the page https://github.com/shantnu/facedetect/ with the corresponding license recognitions. Although it can also be downloaded from other pages as in links from the recommended https://omes-va.com/deteccion-de-rostros-con-haar-cascades-python-opencv/
+You must have the image recognition module  Haarcascade_frontalface_default.xml, in this work it has been downloaded from the page https://github.com/shantnu/facedetect/ . Although it can also be downloaded from other pages as in links from the recommended https://omes-va.com/deteccion-de-rostros-con-haar-cascades-python-opencv/
 
 Functioning:
 
@@ -30,19 +30,19 @@ The test files are accompanied:
 
 LFW3.ZIP containing betting images downloaded from http://vis-ww.cs.umass.edu/lfw/#download and specifically from the option All Images Aligned With Commercial Face Alignment Software (LFW-A - Taigman, Wolf , Hassner)
 
-LFW3_Test.zip containing the used test images. The images listed in the test have been eliminated from training since in another case there would be a very high acceleration rate that would not correspond to reality.
+LFW3_Test.zip containing the used test images. The images listed in the test have been eliminated from training since in another case there would be a very high hit rate that would not correspond to reality.
 
-Both files, as well as the haarcascade_frontalface_default.xml module should be downloaded (and unzipped the .zip) on the D disc:, in another case you have to change the DIRNAME and DIRNAME_TEST parameters at the beginning of the GUESSIMAGESSVM_FACES.PY program
+Both files, as well as the haarcascade_frontalface_default.xml module should be downloaded (and unzipped the .zip) on the C: disc, in another case you have to change the DIRNAME and DIRNAME_TEST parameters at the beginning of the Guessimagessvm_face.py. program
 
 The setting of the FaceCascade ScaleFactor = 2.1 parameter is highlighted, from the value 1.1 with which it is usually included, which produces an automatic debugging of images that allows obtaining success rates over 70%. An extensive and affordable explanation about the parameters of FaceCascade is included in the recommended article https://omes-va.com/deteccion-de-rostros-con-haar-cascades-python-opencv/
 
 The program produces a list of images that have not passed the purification
 
-The disposition of the images of the LFW database, in which the name of person appears in the name of the image has allowed its labeling per program.
+The disposition of the images of the LFW database, in which the name of person appears in the name of the image, has allowed its labeling by program.
 
 The program to execute is ::
 
-Guessimagessvm_face.py.
+GuessimagesSVM_face.py.
 
 References:
 
