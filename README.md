@@ -32,7 +32,7 @@ LFW3.ZIP containing betting images downloaded from http://vis-ww.cs.umass.edu/lf
 
 LFW3_Test.zip containing the used test images. The images listed in the test have been eliminated from training since in another case there would be a very high hit rate that would not correspond to reality.
 
-Both files, as well as the haarcascade_frontalface_default.xml module should be downloaded (and unzipped the .zip) on the C: disc, in another case you have to change the DIRNAME and DIRNAME_TEST parameters at the beginning of the Guessimagessvm_face.py. program
+Both files, as well as the haarcascade_frontalface_default.xml module should be downloaded (and unzipped the .zip) on the C: disc, in another case you have to change the DIRNAME and DIRNAME_TEST parameters at the beginning of the GuessImagesSVM_faces.py. program
 
 The setting of the FaceCascade ScaleFactor = 2.1 parameter is highlighted, from the value 1.1 with which it is usually included, which produces an automatic debugging of images that allows obtaining success rates over 70%. An extensive and affordable explanation about the parameters of FaceCascade is included in the recommended article https://omes-va.com/deteccion-de-rostros-con-haar-cascades-python-opencv/
 
@@ -42,7 +42,7 @@ The disposition of the images of the LFW database, in which the name of person a
 
 The program to execute is ::
 
-GuessimagesSVM_face.py.
+GuessImagesSVM_faces.py.
 
 References:
 
