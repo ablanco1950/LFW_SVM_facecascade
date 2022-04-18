@@ -28,9 +28,9 @@ Functioning:
 
 The test files are accompanied:
 
-LFW3.ZIP containing betting images downloaded from http://vis-ww.cs.umass.edu/lfw/#download and specifically from the option All Images Aligned With Commercial Face Alignment Software (LFW-A - Taigman, Wolf , Hassner)
+lfw3.zip, the training file, containing  images downloaded from http://vis-ww.cs.umass.edu/lfw/#download and specifically from the option All Images Aligned With Commercial Face Alignment Software (LFW-A - Taigman, Wolf , Hassner)
 
-LFW3_Test.zip containing the used test images. The images listed in the test have been eliminated from training since in another case there would be a very high hit rate that would not correspond to reality.
+lfw3_test.zip containing the used test images. The images listed in the test have been eliminated from the training since in another case there would be a very high hit rate that would not correspond to reality.
 
 Both files, as well as the haarcascade_frontalface_default.xml module should be downloaded (and unzipped the .zip) on the C: disc, in another case you have to change the DIRNAME and DIRNAME_TEST parameters at the beginning of the GuessImagesSVM_faces.py. program
 
