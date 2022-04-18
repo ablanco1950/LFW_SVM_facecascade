@@ -1,4 +1,4 @@
-It is done, with extreme simplicity, an image recognition process contained in the LFW database http://vivw.cs.umass.edu/LFW/#DOWNLOAD, taking advantage of the Sklearn ease to implement the SVM model. The recognition of cascaded faces is also used to debug the images by obtaining precisions exceeding 70% in the test with images that are not listed in the training.
+It is done, with extreme simplicity, an image recognition process of images contained in the LFW database http://vivw.cs.umass.edu/LFW/#DOWNLOAD, taking advantage of the Sklearn ease to implement the SVM model. The recognition of cascaded faces is also used to debug the images by obtaining precisions exceeding 70% in the test with images that are not listed in the training.
 
 Requirements:
 
