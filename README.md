@@ -10,7 +10,7 @@ Import Re
 
 Import CV2.
 
-Import Numpy AS NP
+Import Numpy as np
 
 from Sklearn.svm Import SVC
 
@@ -18,7 +18,7 @@ Import Pickle #to Save the Model
 
 from Sklearn.multiclass Import Onevsrestclassifier
 
-It is advisable to have an ACONDA installed and work with Spyder from Anaconda, which guarantees an integrated and friendly environment, installing any package that is missing from the CMD.EXE Prompt of Anaconda with type commands:
+It is advisable to have  ANACONDA installed and work with Spyder from Anaconda, which guarantees an integrated and friendly environment, installing any package that is missing from the CMD.EXE Prompt of Anaconda with type commands:
 
 Python -M Pip Install OpenCV-Python (CASE OF CV2)
 
